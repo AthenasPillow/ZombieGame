@@ -19,7 +19,7 @@ M = 1
 N = 1
 O = 1
 
-def CreateramndomMap(A,B,C,D,E,F,G,H,I,J,K,L,M,N,O):
+def CreaterandomMap(A,B,C,D,E,F,G,H,I,J,K,L,M,N,O):
     Mec = 1
     Mecha = 2
     Hos = 3
@@ -28,7 +28,7 @@ def CreateramndomMap(A,B,C,D,E,F,G,H,I,J,K,L,M,N,O):
     Shops = 6
     Wep = 7
     Weap = 8
-    while A == B or A == C or A == D or A == E or A == F or A == G or A == H or A == I or A == J or A == K or A == L or A == M or A == N or A == O or B == C or B == D or B == E or B == F or B == G or B == H or B == I or B == J or B == K or B == L or B == M or B == N or B == O or C == D or C == E or C == F or C == G or C == H or C == I or C == J or C == K or C == L or C == M or C == N or C == O or D == E or D == F or D == G or D == H or D == I or D == J or D == K or D == L or D == M or D == N or D == O or E == F or E == G or E == H or E == I or E == J or E == K or L == M or E == N or E == O or F == H or F == I or F == G or F == J or F == K or F == L or F == M or F == N or F == O or G == H or G == I or G == J or G == K or G == L or G == M or G == N or G == O or H == I or H == J or H == K or H == L or H == M or H == N or H == O or I == J or I == K or I == L or I == M or I == N or I == O or J == K or J == L or J == M or J == N or J == O or K == L or K == M or K == N or K == O or L == M or L == N or L == O or M == N or M == O or N == O:
+    while A == B or A == C or A == D or A == E or A == F or A == G or A == H or A == I or A == J or A == K or A == L or A == M or A == N or A == O or B == C or B == D or B == E or B == F or B == G or B == H or B == I or B == J or B == K or B == L or B == M or B == N or B == O or C == D or C == E or C == F or C == G or C == H or C == I or C == J or C == K or C == L or C == M or C == N or C == O or D == E or D == F or D == G or D == H or D == I or D == J or D == K or D == L or D == M or D == N or D == O or E == F or E == G or E == H or E == I or E == J or E == K or E == L or E == M or E == N or E == O or F == G or F == H or F == I or F == J or F == K or F == L or F == M or F == N or F == O or G == H or G == I or G == J or G == K or G == L or G == M or G == N or G == O or H == I or H == J or H == K or H == L or H == M or H == N or H == O or I == J or I == K or I == L or I == M or I == N or I == O or J == K or J == L or J == M or J == N or J == O or K == L or K == M or K == N or K == O or L == M or L == N or L == O or M == N or M == O or N == O:
         A = random.randint(1, 14)
         B = random.randint(1, 14)
         C = random.randint(1, 14)
@@ -57,6 +57,9 @@ def CreateramndomMap(A,B,C,D,E,F,G,H,I,J,K,L,M,N,O):
     m = M
     n = N
     o = O
+
+
+
     if A == Mec or A == Hos or A == Sho or A == Wep or A == Mecha or A == Hospi or A == Shops or A == Weap:
         if A == Mec:
             A = '''
@@ -1151,7 +1154,7 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
             printblox(E,F,G,H)
             printblox(I,S,J,K)
             printblox(L,M,N,O)
-        elif Location == a:
+        elif Location == h:
             if h == 1 or 2:
                 print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
                 print('You go inside, and grab a tool.')
@@ -1372,10 +1375,10 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                         Location = s
                         break
                     elif movement == ('East') or ('east'):
-                        Location = l
+                        Location = n
                         break
                     elif movement == ('West') or ('west'):
-                        Location = n
+                        Location = l
                         break
                 printblox(A,B,C,P)
                 printblox(E,F,G,H)
@@ -1467,7 +1470,7 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                     movement = input()
                     movement = str(movement)
                     if movement == ('South') or ('south'):
-                        Location = e
+                        Location = h
                         break
                     elif movement == ('bye') or ('Bye'):
                         if len(inventory) >= 7:
@@ -1523,4 +1526,4 @@ if input().lower().startswith('y'):
 startup(Hello)
 time.sleep(1)
 print('Here is the map')
-CreateramndomMap(A,B,C,D,E,F,G,H,I,J,K,L,M,N,O)
+CreaterandomMap(A,B,C,D,E,F,G,H,I,J,K,L,M,N,O)
