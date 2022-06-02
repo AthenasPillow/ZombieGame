@@ -904,19 +904,19 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
             print('You are standing in front of a red brick building named Carlton High School.')
             print('What direction do you want to go? (North, East, South, or West)')
             movement = hi
-            while movement != 'north' or 'North' or 'west' or 'West' or 'South' or 'south' or 'East' or 'east':
+            while movement != 'north' and movement != 'North' and movement != 'west' and movement != 'West' and movement != 'South' and movement != 'south' and movement != 'East' and movement != 'east':
                 movement = input()
                 movement = str(movement)
-                if movement == ('North') or ('north'):
+                if movement == 'North' or movement == 'north':
                     Location = f
                     break
-                elif movement == ('West') or ('west'):
+                elif movement == 'West' or movement == 'west':
                     Location = i
                     break
-                elif movement == ('South') or ('south'):
+                elif movement == 'South' or movement == 'south':
                     Location = m
                     break
-                elif movement == ('East') or ('east'):
+                elif movement == 'East' or movement == 'east':
                     Location = j
                     break
             printblox(A,B,C,P)
@@ -944,13 +944,13 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
             print('What direction do you want to go? (East or South)')
             movement = hi
-            while movement != 'South' or 'south' or 'East' or 'east':
+            while movement != 'South' and movement != 'south' and movement != 'East' and movement != 'east':
                 movement = input()
                 movement = str(movement)
-                if movement == ('South') or ('south'):
+                if movement == 'South' or movement == 'south':
                     Location = e
                     break
-                elif movement == ('East') or ('east'):
+                elif movement == 'East' or movement == 'east':
                     Location = b
                     break
             printblox(A,B,C,P)
@@ -978,22 +978,23 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
             print('What direction do you want to go? (East, West, or South)')
             movement = hi
-            while movement != 'South' or 'south' or 'East' or 'east' or 'west' or 'West':
+            while movement != 'South' and movement != 'south' and movement != 'East' and movement != 'east' and movement != 'west' and movement != 'West':
                 movement = input()
                 movement = str(movement)
-                if movement == ('South') or ('south'):
+                if movement == 'South' or movement == 'south':
                     Location = f
                     break
-                elif movement == ('East') or ('east'):
+                elif movement == 'East' or movement == 'east':
                     Location = c
                     break
-                elif movement == ('west') or ('West'):
+                elif movement == 'West' or movement == 'west':
                     Location = a
                     break
             printblox(A,B,C,P)
             printblox(E,F,G,H)
             printblox(I,S,J,K)
             printblox(L,M,N,O)
+            
         elif Location == c:
             if c == 1 or c == 2:
                 print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
@@ -1015,16 +1016,16 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
             print('What direction do you want to go? (East, West, or South)')
             movement = hi
-            while movement != 'South' or 'south' or 'East' or 'east' or 'west' or 'West':
+            while movement != 'South' and movement != 'south' and movement != 'East' and movement != 'east' and movement != 'west' and movement != 'West':
                 movement = input()
                 movement = str(movement)
-                if movement == ('South') or ('south'):
+                if movement == 'South' or movement == 'south':
                     Location = g
                     break
-                elif movement == ('East') or ('east'):
+                elif movement == 'East' or movement == 'east':
                     Location = P
                     break
-                elif movement == ('West') or ('west'):
+                elif movement == 'West' or movement == 'west':
                     Location = b
                     break
             printblox(A,B,C,P)
@@ -1053,16 +1054,16 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
             print('What direction do you want to go? (North, East, or South)')
             movement = hi
-            while movement != 'South' or 'south' or 'east' or 'East' or 'North' or 'north':
+            while movement != 'South' and movement != 'south' and movement != 'east' and movement != 'East' and movement != 'North' and movement != 'north':
                 movement = input()
                 movement = str(movement)
-                if movement == ('South') or ('south'):
+                if movement == 'South' or movement == 'south':
                     Location = i
                     break
-                elif movement == ('East') or ('East'):
+                elif movement == 'East' or movement == 'east':
                     Location = f
                     break
-                elif movement == ('North') or ('north'):
+                elif movement == 'North' or movement == 'north':
                     Location = a
                     break
             printblox(A,B,C,P)
@@ -1092,19 +1093,19 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
             print('What direction do you want to go? (North, East, West, or South)')
             movement = hi
-            while movement != 'South' or 'south' or 'East' or 'east' or 'North' or 'north' or 'West' or 'west':
+            while movement != 'South' and movement != 'south' and movement != 'East' and movement != 'east' and movement != 'North' and movement != 'north' and movement != 'West' and movement != 'west':
                 movement = input()
                 movement = str(movement)
-                if movement == ('South') or ('south'):
+                if movement == 'South' or movement == 'south':
                     Location = s
                     break
-                elif movement == ('East') or ('east'):
+                elif movement == 'East' or movement == 'east':
                     Location = g
                     break
-                elif movement == ('North') or ('north'):
+                elif movement == 'North' or movement == 'north':
                     Location = b
                     break
-                elif movement == ('West') or ('west'):
+                elif movement == 'West' or movement == 'west':
                     Location = e
                     break
             printblox(A,B,C,P)
@@ -1134,19 +1135,19 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
             print('What direction do you want to go? (North, East, West, or South)')
             movement = hi
-            while movement != 'South' or 'south' or 'East' or 'east' or 'North' or 'north' or 'West' or 'west':
+            while movement != 'South' and movement != 'south' and movement != 'East' and movement != 'east' and movement != 'North' and movement != 'north' and movement != 'West' and movement != 'west':
                 movement = input()
                 movement = str(movement)
-                if movement == ('South') or ('south'):
+                if movement == 'South' or movement == 'south':
                     Location = j
                     break
-                elif movement == ('East') or ('east'):
+                elif movement == 'East' or movement == 'east':
                     Location = h
                     break
-                elif movement == ('North') or ('north'):
+                elif movement == 'North' or movement == 'north':
                     Location = c
                     break
-                elif movement == ('West') or ('west'):
+                elif movement == 'West' or movement == 'west':
                     Location = f
                     break
                      
@@ -1175,16 +1176,16 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
             print('What direction do you want to go? (North, West, or South)')
             movement = hi
-            while movement != 'South' or 'south' or 'North' or 'north' or 'west' or 'West':
+            while movement != 'South' and movement != 'south' and movement != 'North' and movement != 'north' and movement != 'west' and movement != 'West':
                 movement = input()
                 movement = str(movement)
-                if movement == ('South') or ('south'):
+                if movement == 'South' or movement == 'south':
                     Location = k
                     break
-                elif movement == ('north') or ('North'):
+                elif movement == 'North' or movement == 'north':
                     Location = P
                     break
-                elif movement == ('West') or ('west'):
+                elif movement == 'West' or movement == 'west':
                     Location = g
                     break
                  
@@ -1213,16 +1214,16 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
             print('What direction do you want to go? (North, East, or South)')
             movement = hi
-            while movement != 'South' or 'south' or 'East' or 'east' or 'north' or 'North':
+            while movement != 'South' and movement != 'south' and movement != 'East' and movement != 'east' and movement != 'north' and movement != 'North':
                 movement = input()
                 movement = str(movement)
-                if movement == ('South') or ('south'):
+                if movement == 'South' or movement == 'south':
                     Location = l
                     break
-                elif movement == ('East') or ('east'):
+                elif movement == 'East' or movement == 'east':
                     Location = s
                     break
-                elif movement == ('North') or ('north'):
+                elif movement == 'North' or movement == 'north':
                     Location = e
                     break
             printblox(A,B,C,P)
@@ -1252,19 +1253,19 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
             print('What direction do you want to go? (North, East, South, or West)')
             movement = hi
-            while movement != 'South' or 'south' or 'East' or 'east' or 'west' or 'West' or 'north' or 'North':
+            while movement != 'South' and movement != 'south' and movement != 'East' and movement != 'east' and movement != 'west' and movement != 'West' and movement != 'north' and movement != 'North':
                 movement = input()
                 movement = str(movement)
-                if movement == ('South') or ('south'):
+                if movement == 'South' or movement == 'south':
                     Location = n
                     break
-                elif movement == ('East') or ('east'):
+                elif movement == 'East' or movement == 'east':
                     Location = k
                     break
-                elif movement == ('west') or ('West'):
+                elif movement == 'West' or movement == 'west':
                     Location = s
                     break
-                elif movement == ('north') or ('North'):
+                elif movement == 'North' or movement == 'north':
                     Location = g
                     break
             printblox(A,B,C,P)
@@ -1294,16 +1295,16 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
             print('What direction do you want to go? (West, North, or South)')
             movement = hi
-            while movement != 'South' or 'south' or 'West' or 'west' or 'North' or 'north':
+            while movement != 'South' and movement != 'south' and movement != 'West' and movement != 'west' and movement != 'North' and movement != 'north':
                 movement = input()
                 movement = str(movement)
-                if movement == ('South') or ('south'):
+                if movement == 'South' or movement == 'south':
                     Location = o
                     break
-                elif movement == ('West') or ('west'):
+                elif movement == 'West' or movement == 'west':
                     Location = j
                     break
-                elif movement == ('North') or ('north'):
+                elif movement == 'North' or movement == 'north':
                     Location = h
                     break
             printblox(A,B,C,P)
@@ -1332,13 +1333,13 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
             print('What direction do you want to go? (East or North)')
             movement = hi
-            while movement != 'North' or 'north' or 'East' or 'east':
+            while movement != 'North' and movement != 'north' and movement != 'East' and movement != 'east':
                 movement = input()
                 movement = str(movement)
-                if movement == ('North') or ('north'):
+                if movement == 'North' or movement == 'north':
                     Location = i
                     break
-                elif movement == ('East') or ('east'):
+                elif movement == 'East' or movement == 'east':
                     Location = m
                     break
                 printblox(A,B,C,P)
@@ -1368,16 +1369,16 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                     print('You are standing on an empty street, with cars laying on their sides, abandoned.')
                 print('What direction do you want to go? (West, East, or North)')
                 movement = hi
-                while movement != 'North' or 'north' or 'East' or 'east' or 'west' or 'west':
+                while movement != 'North' and movement != 'north' and movement != 'East' and movement != 'east' and movement != 'west' and movement != 'west':
                     movement = input()
                     movement = str(movement)
-                    if movement == ('North') or ('north'):
+                    if movement == 'North' or movement == 'north':
                         Location = s
                         break
-                    elif movement == ('East') or ('east'):
+                    elif movement == 'East' or movement == 'east':
                         Location = n
                         break
-                    elif movement == ('West') or ('west'):
+                    elif movement == 'West' or movement == 'west':
                         Location = l
                         break
                 printblox(A,B,C,P)
@@ -1408,16 +1409,16 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
             print('What direction do you want to go? (West, East, or North)')
             movement = hi
-            while movement != 'North' or 'north' or 'East' or 'east' or 'west' or 'West':
+            while movement != 'North' and movement != 'north' and movement != 'East' and movement != 'east' and movement != 'west' and movement != 'West':
                 movement = input()
                 movement = str(movement)
-                if movement == ('North') or ('north'):
+                if movement == 'North' or movement == 'north':
                     Location = j
                     break
-                elif movement == ('East') or ('east'):
+                elif movement == 'East' or movement == 'east':
                     Location = o
                     break
-                elif movement == ('West') or ('west'):
+                elif movement == 'West' or movement == 'west':
                     Location = m
                     break
                 printblox(A,B,C,P)
@@ -1446,16 +1447,15 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                     print('You are standing on an empty street, with cars laying on their sides, abandoned.')
                 print('What direction do you want to go? (West or North)')
                 movement = hi
-                while movement != 'North' or 'north' or 'West' or 'west':
+                while movement != 'North' and movement != 'north' and movement != 'West' and movement != 'west':
                     movement = input()
                     movement = str(movement)
-                    if movement == ('North') or ('north'):
+                    if movement == 'North' or movement == 'north':
                         Location = k
                         break
-                    elif movement == ('West') or ('west'):
+                    elif movement == 'West' or movement == 'west':
                         Location = n
                         break
-
                 printblox(A,B,C,P)
                 printblox(E,F,G,H)
                 printblox(I,S,J,K)
@@ -1466,13 +1466,13 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 print('You are standing before the exit of this town, debating whether you will survive with the materials you have, and without one needed material you will lose.')
                 print('Where do you wish to move? (South, West, or bye is you wish to escape.)')
                 movement = hi
-                while movement != 'south' or 'South' or 'west' or 'West' or 'bye' or 'Bye':
+                while movement != 'south' and movement != 'South' and movement != 'west' and movement != 'West' and movement != 'bye' and movement != 'Bye':
                     movement = input()
                     movement = str(movement)
-                    if movement == ('South') or ('south'):
+                    if movement == 'South' or movement == 'south':
                         Location = h
                         break
-                    elif movement == ('bye') or ('Bye'):
+                    elif movement == 'bye' or movement == 'Bye':
                         if len(inventory) >= 7:
                             print('CONGRATULATIONS! You win!')
                             print('This is what you had:')
@@ -1484,7 +1484,7 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                             print('Your car crashed on the side of the road and the zombies came and ate your brain.')
                             GameisNotwon = False
                             break
-                    elif movement == ('west') or ('West'):
+                    elif movement == 'west' or movement == 'West':
                         Location = c
                         break
                     print(inventory)
