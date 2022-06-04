@@ -1,7 +1,8 @@
 import random
 import time
 import sys
-#Everthing works but the movement.
+
+# Everthing works but the movement.
 Hello = ' '
 A = 1
 B = 1
@@ -19,7 +20,8 @@ M = 1
 N = 1
 O = 1
 
-def CreaterandomMap(A,B,C,D,E,F,G,H,I,J,K,L,M,N,O):
+
+def CreaterandomMap(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O):
     Mec = 1
     Mecha = 2
     Hos = 3
@@ -57,8 +59,6 @@ def CreaterandomMap(A,B,C,D,E,F,G,H,I,J,K,L,M,N,O):
     m = M
     n = N
     o = O
- 
-
 
     if A == Mec or A == Hos or A == Sho or A == Wep or A == Mecha or A == Hospi or A == Shops or A == Weap:
         if A == Mec:
@@ -78,14 +78,14 @@ _______
 _______
 |     |
 | Hos |
-|_____|'''            
+|_____|'''
 
         elif A == Shops:
             A = '''           
 _______
 |     |
 | Sho |
-|_____|''' 
+|_____|'''
         elif A == Weap:
             A = '''
 _______
@@ -104,7 +104,7 @@ _______
 |     |
 | Sho |
 |_____|'''
-        elif A == Wep:          
+        elif A == Wep:
             A = '''
 _______
 |     |
@@ -135,14 +135,14 @@ _______
 _______
 |     |
 | Hos |
-|_____|'''            
+|_____|'''
 
         elif B == Shops:
             B = '''           
 ______ 
 |     |
 | Sho |
-|_____|''' 
+|_____|'''
         elif B == Weap:
             B = '''
 _______
@@ -161,7 +161,7 @@ ______
 |     |
 | Sho |
 |_____|'''
-        elif B == Wep:          
+        elif B == Wep:
             B = '''
 _______
 |     |
@@ -192,14 +192,14 @@ _______
 _______
 |     |
 | Hos |
-|_____|'''            
+|_____|'''
 
         elif C == Shops:
             C = '''           
 ______ 
 |     |
 | Sho |
-|_____|''' 
+|_____|'''
         elif C == Weap:
             C = '''
 _______
@@ -218,7 +218,7 @@ ______
 |     |
 | Sho |
 |_____|'''
-        elif C == Wep:          
+        elif C == Wep:
             C = '''
 _______
 |     |
@@ -249,14 +249,14 @@ _______
 _______
 |     |
 | Hos |
-|_____|'''            
+|_____|'''
 
         elif E == Shops:
             E = '''           
 ______ 
 |     |
 | Sho |
-|_____|''' 
+|_____|'''
         elif E == Weap:
             E = '''
 _______
@@ -275,7 +275,7 @@ ______
 |     |
 | Sho |
 |_____|'''
-        elif E == Wep:          
+        elif E == Wep:
             E = '''
 _______
 |     |
@@ -306,14 +306,14 @@ _______
 _______
 |     |
 | Hos |
-|_____|'''            
+|_____|'''
 
         elif F == Shops:
             F = '''           
 ______ 
 |     |
 | Sho |
-|_____|''' 
+|_____|'''
         elif F == Weap:
             F = '''
 _______
@@ -332,7 +332,7 @@ ______
 |     |
 | Sho |
 |_____|'''
-        elif F == Wep:          
+        elif F == Wep:
             F = '''
 _______
 |     |
@@ -363,20 +363,20 @@ _______
 _______
 |     |
 | Hos |
-|_____|'''            
+|_____|'''
 
         elif G == Shops:
             G = '''           
 ______ 
 |     |
 | Sho |
-|_____| ''' 
+|_____| '''
         elif G == Weap:
             G = '''
 _______
 |     |
 | Wep |
-|_____|'''          
+|_____|'''
         elif G == Hos:
             G = '''
 _______
@@ -389,7 +389,7 @@ ______
 |     |
 | Sho |
 |_____|'''
-        elif G == Wep:          
+        elif G == Wep:
             G = '''
 _______
 |     |
@@ -420,14 +420,14 @@ _______
 _______
 |     |
 | Hos |
-|_____| '''            
+|_____| '''
 
         elif H == Shops:
             H = '''           
 ______ 
 |     |
 | Sho |
-|_____| ''' 
+|_____| '''
         elif H == Weap:
             H = '''
 _______
@@ -446,7 +446,7 @@ ______
 |     |
 | Sho |
 |_____| '''
-        elif H == Wep:          
+        elif H == Wep:
             H = '''
 _______
 |     |
@@ -477,14 +477,14 @@ _______
 _______
 |     |
 | Hos |
-|_____|'''            
+|_____|'''
 
         elif I == Shops:
             I = '''           
 ______ 
 |     |
 | Sho |
-|_____|''' 
+|_____|'''
         elif I == Weap:
             I = '''
 _______
@@ -503,7 +503,7 @@ ______
 |     |
 | Sho |
 |_____|'''
-        elif I == Wep:          
+        elif I == Wep:
             I = '''
 _______
 |     |
@@ -534,14 +534,14 @@ _______
 _______
 |     |
 | Hos |
-|_____|'''            
+|_____|'''
 
         elif J == Shops:
             J = '''           
 ______ 
 |     |
 | Sho |
-|_____|''' 
+|_____|'''
         elif J == Weap:
             J = '''
 _______
@@ -560,7 +560,7 @@ ______
 |     |
 | Sho |
 |_____|'''
-        elif J == Wep:          
+        elif J == Wep:
             J = '''
 _______
 |     |
@@ -591,14 +591,14 @@ _______
 _______
 |     |
 | Hos |
-|_____| '''            
+|_____| '''
 
         elif K == Shops:
             K = '''           
 ______
 |     |
 | Sho |
-|_____| ''' 
+|_____| '''
         elif K == Weap:
             K = '''
 _______
@@ -617,7 +617,7 @@ ______
 |     |
 | Sho |
 |_____| '''
-        elif K == Wep:          
+        elif K == Wep:
             K = '''
 _______
 |     |
@@ -648,14 +648,14 @@ _______
 _______
 |     |
 | Hos |
-|_____|'''            
+|_____|'''
 
         elif L == Shops:
             L = '''           
 ______ 
 |     |
 | Sho |
-|_____|''' 
+|_____|'''
         elif L == Weap:
             L = '''
 _______
@@ -674,7 +674,7 @@ ______
 |     |
 | Sho |
 |_____|'''
-        elif L == Wep:          
+        elif L == Wep:
             L = '''
 _______
 |     |
@@ -705,14 +705,14 @@ _______
 _______
 |     |
 | Hos |
-|_____|'''            
+|_____|'''
 
         elif M == Shops:
             M = '''           
 ______ 
 |     |
 | Sho |
-|_____|''' 
+|_____|'''
         elif M == Weap:
             M = '''
 _______
@@ -731,7 +731,7 @@ ______
 |     |
 | Sho |
 |_____|'''
-        elif M == Wep:          
+        elif M == Wep:
             M = '''
 _______
 |     |
@@ -762,14 +762,14 @@ _______
 _______
 |     |
 | Hos |
-|_____|'''            
+|_____|'''
 
         elif N == Shops:
             N = '''           
 ______ 
 |     |
 | Sho |
-|_____|''' 
+|_____|'''
         elif N == Weap:
             N = '''
 _______
@@ -788,7 +788,7 @@ ______
 |     |
 | Sho |
 |_____|'''
-        elif N == Wep:          
+        elif N == Wep:
             N = '''
 _______
 |     |
@@ -800,7 +800,7 @@ _______
 _______
 |     |
 |     |
-|_____|'''    
+|_____|'''
     if O == Mec or O == Hos or O == Sho or O == Wep or O == Mecha or O == Hospi or O == Shops or O == Weap:
         if O == Mec:
             O = '''
@@ -819,14 +819,14 @@ _______
 _______
 |     |
 | Hos |
-|_____| '''            
+|_____| '''
 
         elif O == Shops:
             O = '''           
 ______
 |     |
 | Sho |
-|_____| ''' 
+|_____| '''
         elif O == Weap:
             O = '''
 _______
@@ -845,7 +845,7 @@ ______
 |     |
 | Sho |
 |_____|'''
-        elif O == Wep:          
+        elif O == Wep:
             O = '''
 _______
 |     |
@@ -872,9 +872,18 @@ _______
     printblox(E, F, G, H)
     printblox(I, S, J, K)
     printblox(L, M, N, O)
-    whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N,O)
+    whereYouare(a, b, c, P,
+                e, f, g, h,
+                i, S, j, k,
+                l, m, n, o,
+                A, B, C,
+                E, F, G, H,
+                I, J, K,
+                L, M, N, O)
+
+
 def printblox(A, B, C, P):
-    #Prints the blocks on a single line.
+    # Prints the blocks on a single line.
     a_list = A.split("\n")
     b_list = B.split("\n")
     c_list = C.split("\n")
@@ -884,23 +893,25 @@ def printblox(A, B, C, P):
     print(a_list[2], b_list[2], c_list[2], d_list[2])
     print(a_list[3], b_list[3], c_list[3], d_list[3])
     print(a_list[4], b_list[4], c_list[4], d_list[4])
+
+
 def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N,O):
     s = S
-    #Mec = 1
-    #Mecha = 2
-    #Hos = 3
-    #Hospi = 4
-    #Sho = 5
-    #Shops = 6
-    #Wep = 7
-    #Weap = 8
+    # Mec = 1
+    # Mecha = 2
+    # Hos = 3
+    # Hospi = 4
+    # Sho = 5
+    # Shops = 6
+    # Wep = 7
+    # Weap = 8
     Location = P
-    inventory = [ ]
+    inventory = []
     hi = ' '
-    GameisNotwon = True
-    while GameisNotwon == True:
+    GameIsNotWon = True
+    while GameIsNotWon:
         if Location == s:
-            #For School
+            # For School
             print('You are standing in front of a red brick building named Carlton High School.')
             print('What direction do you want to go? (North, East, South, or West)')
             movement = hi
@@ -919,10 +930,8 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 elif movement == 'East' or movement == 'east':
                     Location = j
                     break
-            printblox(A,B,C,P)
-            printblox(E,F,G,H)
-            printblox(I,S,J,K)
-            printblox(L,M,N,O)
+
+
         elif Location == a:
             if a == 1 or a == 2:
                 print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
@@ -953,10 +962,8 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 elif movement == 'East' or movement == 'east':
                     Location = b
                     break
-            printblox(A,B,C,P)
-            printblox(E,F,G,H)
-            printblox(I,S,J,K)
-            printblox(L,M,N,O)
+
+
         elif Location == b:
             if b == 1 or b == 2:
                 print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
@@ -990,11 +997,8 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 elif movement == 'West' or movement == 'west':
                     Location = a
                     break
-            printblox(A,B,C,P)
-            printblox(E,F,G,H)
-            printblox(I,S,J,K)
-            printblox(L,M,N,O)
-            
+
+
         elif Location == c:
             if c == 1 or c == 2:
                 print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
@@ -1028,11 +1032,8 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 elif movement == 'West' or movement == 'west':
                     Location = b
                     break
-            printblox(A,B,C,P)
-            printblox(E,F,G,H)
-            printblox(I,S,J,K)
-            printblox(L,M,N,O)
-                  
+
+
         elif Location == e:
             if e == 1 or e == 2:
                 print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
@@ -1066,12 +1067,8 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 elif movement == 'North' or movement == 'north':
                     Location = a
                     break
-            printblox(A,B,C,P)
-            printblox(E,F,G,H)
-            printblox(I,S,J,K)
-            printblox(L,M,N,O)
-                
-                 
+
+
         elif Location == f:
             if f == 1 or f == 2:
                 print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
@@ -1108,12 +1105,8 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 elif movement == 'West' or movement == 'west':
                     Location = e
                     break
-            printblox(A,B,C,P)
-            printblox(E,F,G,H)
-            printblox(I,S,J,K)
-            printblox(L,M,N,O)
-                     
-                 
+
+
         elif Location == g:
             if g == 1 or g == 2:
                 print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
@@ -1128,7 +1121,8 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 print('You hustle inside, and steal some food.')
                 inventory.append('Food')
             elif g == 7 or g == 8:
-                print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
+                print(
+                    'You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
                 print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
                 inventory.append('Sword')
             else:
@@ -1150,11 +1144,8 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 elif movement == 'West' or movement == 'west':
                     Location = f
                     break
-                     
-            printblox(A,B,C,P)
-            printblox(E,F,G,H)
-            printblox(I,S,J,K)
-            printblox(L,M,N,O)
+
+
         elif Location == h:
             if h == 1 or h == 2:
                 print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
@@ -1188,11 +1179,8 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 elif movement == 'West' or movement == 'west':
                     Location = g
                     break
-                 
-            printblox(A,B,C,P)
-            printblox(E,F,G,H)
-            printblox(I,S,J,K)
-            printblox(L,M,N,O)
+
+
         elif Location == i:
             if i == 1 or i == 2:
                 print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
@@ -1226,12 +1214,8 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 elif movement == 'North' or movement == 'north':
                     Location = e
                     break
-            printblox(A,B,C,P)
-            printblox(E,F,G,H)
-            printblox(I,S,J,K)
-            printblox(L,M,N,O)
-                
-           
+
+
         elif Location == j:
             if j == 1 or j == 2:
                 print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
@@ -1242,7 +1226,8 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 print('You run inside, and nab a medkit.')
                 inventory.append('Medkit')
             elif j == 5 or j == 6:
-                print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
+                print(
+                    'You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
                 print('You hustle inside, and steal some food.')
                 inventory.append('Food')
             elif j == 7 or j == 8:
@@ -1268,12 +1253,8 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 elif movement == 'North' or movement == 'north':
                     Location = g
                     break
-            printblox(A,B,C,P)
-            printblox(E,F,G,H)
-            printblox(I,S,J,K)
-            printblox(L,M,N,O)
-                
-           
+
+
         elif Location == k:
             if k == 1 or k == 2:
                 print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
@@ -1307,11 +1288,8 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 elif movement == 'North' or movement == 'north':
                     Location = h
                     break
-            printblox(A,B,C,P)
-            printblox(E,F,G,H)
-            printblox(I,S,J,K)
-            printblox(L,M,N,O)
-                
+
+
         elif Location == l:
             if l == 1 or l == 2:
                 print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
@@ -1342,52 +1320,43 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 elif movement == 'East' or movement == 'east':
                     Location = m
                     break
-                printblox(A,B,C,P)
-                printblox(E,F,G,H)
-                printblox(I,S,J,K)
-                printblox(L,M,N,O)
-                
-            
+
+
         elif Location == m:
-                if m == 1 or m == 2:
-                    print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
-                    print('You go inside, and grab a tool.')
-                    inventory.append('Tool')
-                elif m == 3 or m == 4:
-                    print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
-                    print('You run inside, and nab a medkit.')
-                    inventory.append('Medkit')
-                elif m == 5 or m == 6:
-                    print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
-                    print('You hustle inside, and steal some food.')
-                    inventory.append('Food')
-                elif m == 7 or m == 8:
-                    print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
-                    print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
-                    inventory.append('Sword')
-                else:
-                    print('You are standing on an empty street, with cars laying on their sides, abandoned.')
-                print('What direction do you want to go? (West, East, or North)')
-                movement = hi
-                while movement != 'North' and movement != 'north' and movement != 'East' and movement != 'east' and movement != 'west' and movement != 'west':
-                    movement = input()
-                    movement = str(movement)
-                    if movement == 'North' or movement == 'north':
-                        Location = s
-                        break
-                    elif movement == 'East' or movement == 'east':
-                        Location = n
-                        break
-                    elif movement == 'West' or movement == 'west':
-                        Location = l
-                        break
-                printblox(A,B,C,P)
-                printblox(E,F,G,H)
-                printblox(I,S,J,K)
-                printblox(L,M,N,O)
-                    
-                   
-           
+            if m == 1 or m == 2:
+                print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
+                print('You go inside, and grab a tool.')
+                inventory.append('Tool')
+            elif m == 3 or m == 4:
+                print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
+                print('You run inside, and nab a medkit.')
+                inventory.append('Medkit')
+            elif m == 5 or m == 6:
+                print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
+                print('You hustle inside, and steal some food.')
+                inventory.append('Food')
+            elif m == 7 or m == 8:
+                print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
+                print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
+                inventory.append('Sword')
+            else:
+                print('You are standing on an empty street, with cars laying on their sides, abandoned.')
+            print('What direction do you want to go? (West, East, or North)')
+            movement = hi
+            while movement != 'North' and movement != 'north' and movement != 'East' and movement != 'east' and movement != 'west' and movement != 'west':
+                movement = input()
+                movement = str(movement)
+                if movement == 'North' or movement == 'north':
+                    Location = s
+                    break
+                elif movement == 'East' or movement == 'east':
+                    Location = n
+                    break
+                elif movement == 'West' or movement == 'west':
+                    Location = l
+                    break
+
+
         elif Location == n:
             if n == 1 or n == 2:
                 print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
@@ -1421,90 +1390,84 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
                 elif movement == 'West' or movement == 'west':
                     Location = m
                     break
-                printblox(A,B,C,P)
-                printblox(E,F,G,H)
-                printblox(I,S,J,K)
-                printblox(L,M,N,O)
-            
-        elif Location == o:
-                if o == 1 or o == 2:
-                    print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
-                    print('You go inside, and grab a tool.')
-                    inventory.append('Tool')
-                elif o == 3 or o == 4:
-                    print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
-                    print('You run inside, and nab a medkit.')
-                    inventory.append('Medkit')
-                elif o == 5 or o == 6:
-                    print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
-                    print('You hustle inside, and steal some food.')
-                    inventory.append('Food')
-                elif o == 7 or o == 8:
-                    print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
-                    print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
-                    inventory.append('Sword')
-                else:
-                    print('You are standing on an empty street, with cars laying on their sides, abandoned.')
-                print('What direction do you want to go? (West or North)')
-                movement = hi
-                while movement != 'North' and movement != 'north' and movement != 'West' and movement != 'west':
-                    movement = input()
-                    movement = str(movement)
-                    if movement == 'North' or movement == 'north':
-                        Location = k
-                        break
-                    elif movement == 'West' or movement == 'west':
-                        Location = n
-                        break
-                printblox(A,B,C,P)
-                printblox(E,F,G,H)
-                printblox(I,S,J,K)
-                printblox(L,M,N,O)
-                    
-                
-        elif Location == P:
-                print('You are standing before the exit of this town, debating whether you will survive with the materials you have, and without one needed material you will lose.')
-                print('Where do you wish to move? (South, West, or bye is you wish to escape.)')
-                movement = hi
-                while movement != 'south' and movement != 'South' and movement != 'west' and movement != 'West' and movement != 'bye' and movement != 'Bye':
-                    movement = input()
-                    movement = str(movement)
-                    if movement == 'South' or movement == 'south':
-                        Location = h
-                        break
-                    elif movement == 'bye' or movement == 'Bye':
-                        if len(inventory) >= 7:
-                            print('CONGRATULATIONS! You win!')
-                            print('This is what you had:')
-                            print(inventory)
-                            GameisNotwon = False
-                            break
-                        
-                        else:
-                            print('Your car crashed on the side of the road and the zombies came and ate your brain.')
-                            GameisNotwon = False
-                            break
-                    elif movement == 'west' or movement == 'West':
-                        Location = c
-                        break
-                    print(inventory)
-                printblox(A,B,C,P)
-                printblox(E,F,G,H)
-                printblox(I,S,J,K)
-                printblox(L,M,N,O)
-def startup(Hello):
-    print('You are surviving in the zombie apoclypse, your town has been overrun and you must escape to the nearest apocolypse shelter.')
-    time.sleep(3)
-    print()
-    print('You are driving to the shelter in your mom\'s old van.')
-    time.sleep(5)
-    print()
-    print('The van just broke down outside of a school (a safe place) and you must gather supplies to fix it, fight the zombies, and escape.')
-    time.sleep(3)
-    print()
-    print('Very fortunately, you are in a town that you know your way around, so you can get everything with ease, but you have to not get bitten.')
 
-    
+
+        elif Location == o:
+            if o == 1 or o == 2:
+                print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
+                print('You go inside, and grab a tool.')
+                inventory.append('Tool')
+            elif o == 3 or o == 4:
+                print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
+                print('You run inside, and nab a medkit.')
+                inventory.append('Medkit')
+            elif o == 5 or o == 6:
+                print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
+                print('You hustle inside, and steal some food.')
+                inventory.append('Food')
+            elif o == 7 or o == 8:
+                print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
+                print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
+                inventory.append('Sword')
+            else:
+                print('You are standing on an empty street, with cars laying on their sides, abandoned.')
+            print('What direction do you want to go? (West or North)')
+            movement = hi
+            while movement != 'North' and movement != 'north' and movement != 'West' and movement != 'west':
+                movement = input()
+                movement = str(movement)
+                if movement == 'North' or movement == 'north':
+                    Location = k
+                    break
+                elif movement == 'West' or movement == 'west':
+                    Location = n
+                    break
+
+
+        elif Location == P:
+            print('You are standing before the exit of this town, debating whether you will survive with the materials you have, and without one needed material you will lose.')
+            print('Where do you wish to move? (South, West, or bye is you wish to escape.)')
+            movement = hi
+            while movement != 'south' and movement != 'South' and movement != 'west' and movement != 'West' and movement != 'bye' and movement != 'Bye':
+                movement = input()
+                movement = str(movement)
+                if movement == 'South' or movement == 'south':
+                    Location = h
+                    break
+                elif movement == 'bye' or movement == 'Bye':
+                    if len(inventory) >= 7:
+                        print('CONGRATULATIONS! You win!')
+                        print('This is what you had:')
+                        print(inventory)
+                        GameIsNotWon = False
+                        quit()
+
+                    else:
+                        print('Your car crashed on the side of the road and the zombies came and ate your brain.')
+                        GameIsNotWon = False
+                        quit()
+                elif movement == 'west' or movement == 'West':
+                    Location = c
+                    break
+                print(inventory)
+
+        # Print map
+        printblox(A, B, C, P)
+        printblox(E, F, G, H)
+        printblox(I, S, J, K)
+        printblox(L, M, N, O)
+
+
+def startup(Hello):
+    print('You are surviving in the zombie apoclypse, your town has been overrun and you must escape to the nearest apocolypse shelter.\n')
+    time.sleep(3)
+    print('You are driving to the shelter in your mom\'s old van.\n')
+    time.sleep(5)
+    print('The van just broke down outside of a school (a safe place) and you must gather supplies to fix it, fight the zombies, and escape.\n')
+    time.sleep(3)
+    print('Very fortunately, you are in a town that you know your way around, so you can get everything with ease, but you have to not get bitten.\n')
+
+
 def showInstructions():
     print('''Rules:
 If you try to escape without required items, you lose.
@@ -1519,6 +1482,8 @@ You will find zombies randomly, and the map changes everytime you play.
 Sho stands for Shop, wep stands for Weapon Stash, hos stand for Hospital, and mec stands for Mechanic.
 The required items are 2 mechanic items, 2 hospital items, 2 shop items, and 1 weapon.
 ''')
+
+
 print('Would you like to view the rules? (yes/no)')
 if input().lower().startswith('y'):
     showInstructions()
@@ -1526,4 +1491,4 @@ if input().lower().startswith('y'):
 startup(Hello)
 time.sleep(1)
 print('Here is the map')
-CreaterandomMap(A,B,C,D,E,F,G,H,I,J,K,L,M,N,O)
+CreaterandomMap(A, B, C, D, E, F, G, H, I, J, K, L, M, N, O)
