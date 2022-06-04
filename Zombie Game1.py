@@ -886,7 +886,9 @@ def printblox(A, B, C, P):
     print(a_list[2], b_list[2], c_list[2], d_list[2])
     print(a_list[3], b_list[3], c_list[3], d_list[3])
     print(a_list[4], b_list[4], c_list[4], d_list[4])
-def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N,O):
+
+
+def whereYouare(a, b, c, P, e, f, g, h, i, S, j, k, l, m, n, o, A, B, C, E, F, G, H, I, J, K, L, M, N, O):
     s = S
     # Mec = 1
     # Mecha = 2
@@ -925,20 +927,25 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
 
         elif Location == a:
             if a == 1 or a == 2:
-                print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
+                print(
+                    'You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
                 print('You go inside, and grab a tool.')
                 inventory.append('Tool')
             elif a == 3 or a == 4:
-                print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
+                print(
+                    'You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
                 print('You run inside, and nab a medkit.')
                 inventory.append('Medkit')
             elif a == 5 or a == 6:
-                print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
+                print(
+                    'You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
                 print('You hustle inside, and steal some food.')
                 inventory.append('Food')
             elif a == 7 or a == 8:
-                print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
-                print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
+                print(
+                    'You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
+                print(
+                    'You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
                 inventory.append('Sword')
             else:
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
@@ -957,20 +964,25 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
 
         elif Location == b:
             if b == 1 or b == 2:
-                print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
+                print(
+                    'You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
                 print('You go inside, and grab a tool.')
                 inventory.append('Tool')
             elif b == 3 or b == 4:
-                print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
+                print(
+                    'You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
                 print('You run inside, and nab a medkit.')
                 inventory.append('Medkit')
             elif b == 5 or b == 6:
-                print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
+                print(
+                    'You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
                 print('You hustle inside, and steal some food.')
                 inventory.append('Food')
             elif b == 7 or b == 8:
-                print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
-                print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
+                print(
+                    'You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
+                print(
+                    'You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
                 inventory.append('Sword')
             else:
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
@@ -992,20 +1004,25 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
 
         elif Location == c:
             if c == 1 or c == 2:
-                print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
+                print(
+                    'You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
                 print('You go inside, and grab a tool.')
                 inventory.append('Tool')
             elif c == 3 or c == 4:
-                print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
+                print(
+                    'You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
                 print('You run inside, and nab a medkit.')
                 inventory.append('Medkit')
             elif c == 5 or c == 6:
-                print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
+                print(
+                    'You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
                 print('You hustle inside, and steal some food.')
                 inventory.append('Food')
             elif c == 7 or c == 8:
-                print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
-                print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
+                print(
+                    'You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
+                print(
+                    'You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
                 inventory.append('Sword')
             else:
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
@@ -1027,20 +1044,25 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
 
         elif Location == e:
             if e == 1 or e == 2:
-                print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
+                print(
+                    'You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
                 print('You go inside, and grab a tool.')
                 inventory.append('Tool')
             elif e == 3 or e == 4:
-                print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
+                print(
+                    'You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
                 print('You run inside, and nab a medkit.')
                 inventory.append('Medkit')
             elif e == 5 or e == 6:
-                print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
+                print(
+                    'You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
                 print('You hustle inside, and steal some food.')
                 inventory.append('Food')
             elif e == 7 or e == 8:
-                print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
-                print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
+                print(
+                    'You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
+                print(
+                    'You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
                 inventory.append('Sword')
             else:
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
@@ -1062,20 +1084,25 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
 
         elif Location == f:
             if f == 1 or f == 2:
-                print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
+                print(
+                    'You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
                 print('You go inside, and grab a tool.')
                 inventory.append('Tool')
             elif f == 3 or f == 4:
-                print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
+                print(
+                    'You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
                 print('You run inside, and nab a medkit.')
                 inventory.append('Medkit')
             elif f == 5 or f == 6:
-                print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
+                print(
+                    'You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
                 print('You hustle inside, and steal some food.')
                 inventory.append('Food')
             elif f == 7 or f == 8:
-                print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
-                print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
+                print(
+                    'You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
+                print(
+                    'You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
                 inventory.append('Sword')
             else:
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
@@ -1100,20 +1127,25 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
 
         elif Location == g:
             if g == 1 or g == 2:
-                print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
+                print(
+                    'You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
                 print('You go inside, and grab a tool.')
                 inventory.append('Tool')
             elif g == 3 or g == 4:
-                print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
+                print(
+                    'You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
                 print('You run inside, and nab a medkit.')
                 inventory.append('Medkit')
             elif g == 5 or g == 6:
-                print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
+                print(
+                    'You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
                 print('You hustle inside, and steal some food.')
                 inventory.append('Food')
             elif g == 7 or g == 8:
-                print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
-                print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
+                print(
+                    'You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
+                print(
+                    'You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
                 inventory.append('Sword')
             else:
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
@@ -1138,20 +1170,25 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
 
         elif Location == h:
             if h == 1 or h == 2:
-                print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
+                print(
+                    'You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
                 print('You go inside, and grab a tool.')
                 inventory.append('Tool')
             elif h == 3 or h == 4:
-                print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
+                print(
+                    'You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
                 print('You run inside, and nab a medkit.')
                 inventory.append('Medkit')
             elif h == 5 or h == 6:
-                print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
+                print(
+                    'You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
                 print('You hustle inside, and steal some food.')
                 inventory.append('Food')
             elif h == 7 or h == 8:
-                print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
-                print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
+                print(
+                    'You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
+                print(
+                    'You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
                 inventory.append('Sword')
             else:
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
@@ -1173,20 +1210,25 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
 
         elif Location == i:
             if i == 1 or i == 2:
-                print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
+                print(
+                    'You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
                 print('You go inside, and grab a tool.')
                 inventory.append('Tool')
             elif i == 3 or i == 4:
-                print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
+                print(
+                    'You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
                 print('You run inside, and nab a medkit.')
                 inventory.append('Medkit')
             elif i == 5 or i == 6:
-                print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
+                print(
+                    'You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
                 print('You hustle inside, and steal some food.')
                 inventory.append('Food')
             elif i == 7 or i == 8:
-                print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
-                print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
+                print(
+                    'You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
+                print(
+                    'You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
                 inventory.append('Sword')
             else:
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
@@ -1208,20 +1250,25 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
 
         elif Location == j:
             if j == 1 or j == 2:
-                print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
+                print(
+                    'You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
                 print('You go inside, and grab a tool.')
                 inventory.append('Tool')
             elif j == 3 or j == 4:
-                print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
+                print(
+                    'You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
                 print('You run inside, and nab a medkit.')
                 inventory.append('Medkit')
             elif j == 5 or j == 6:
-                print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
+                print(
+                    'You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
                 print('You hustle inside, and steal some food.')
                 inventory.append('Food')
             elif j == 7 or j == 8:
-                print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
-                print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
+                print(
+                    'You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
+                print(
+                    'You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
                 inventory.append('Sword')
             else:
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
@@ -1246,20 +1293,25 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
 
         elif Location == k:
             if k == 1 or k == 2:
-                print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
+                print(
+                    'You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
                 print('You go inside, and grab a tool.')
                 inventory.append('Tool')
             elif k == 3 or k == 4:
-                print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
+                print(
+                    'You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
                 print('You run inside, and nab a medkit.')
                 inventory.append('Medkit')
             elif k == 5 or k == 6:
-                print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
+                print(
+                    'You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
                 print('You hustle inside, and steal some food.')
                 inventory.append('Food')
             elif k == 7 or k == 8:
-                print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
-                print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
+                print(
+                    'You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
+                print(
+                    'You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
                 inventory.append('Sword')
             else:
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
@@ -1281,20 +1333,25 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
 
         elif Location == l:
             if l == 1 or l == 2:
-                print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
+                print(
+                    'You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
                 print('You go inside, and grab a tool.')
                 inventory.append('Tool')
             elif l == 3 or l == 4:
-                print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
+                print(
+                    'You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
                 print('You run inside, and nab a medkit.')
                 inventory.append('Medkit')
             elif l == 5 or l == 6:
-                print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
+                print(
+                    'You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
                 print('You hustle inside, and steal some food.')
                 inventory.append('Food')
             elif l == 7 or l == 8:
-                print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
-                print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
+                print(
+                    'You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
+                print(
+                    'You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
                 inventory.append('Sword')
             else:
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
@@ -1348,20 +1405,25 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
 
         elif Location == n:
             if n == 1 or n == 2:
-                print('You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
+                print(
+                    'You once visited this place to check your car\'s tires and it is O-Riely Atuoparts. You stand outside it wondering if you could use anything from in there for your car.')
                 print('You go inside, and grab a tool.')
                 inventory.append('Tool')
             elif n == 3 or n == 4:
-                print('You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
+                print(
+                    'You are standing outside a white building with a red cross, a Hospital, preparing to go inside and loot it for med kits.')
                 print('You run inside, and nab a medkit.')
                 inventory.append('Medkit')
             elif n == 5 or n == 6:
-                print('You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
+                print(
+                    'You are standing outside the shop In-and-out, preparing to run inside and run out with your hands full of whatever you can find.')
                 print('You hustle inside, and steal some food.')
                 inventory.append('Food')
             elif n == 7 or n == 8:
-                print('You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
-                print('You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
+                print(
+                    'You are standing in front of what seems to be a pile of guns, knifes, and other weapons that seems to stretch on forever.')
+                print(
+                    'You find a sword amoungst the plie, and test it on a zombie nearby then store it for safe keeping.')
                 inventory.append('Sword')
             else:
                 print('You are standing on an empty street, with cars laying on their sides, abandoned.')
@@ -1448,16 +1510,19 @@ def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N
 
 
 def startup(Hello):
-    print('You are surviving in the zombie apoclypse, your town has been overrun and you must escape to the nearest apocolypse shelter.')
+    print(
+        'You are surviving in the zombie apoclypse, your town has been overrun and you must escape to the nearest apocolypse shelter.')
     time.sleep(3)
     print()
     print('You are driving to the shelter in your mom\'s old van.')
     time.sleep(5)
     print()
-    print('The van just broke down outside of a school (a safe place) and you must gather supplies to fix it, fight the zombies, and escape.')
+    print(
+        'The van just broke down outside of a school (a safe place) and you must gather supplies to fix it, fight the zombies, and escape.')
     time.sleep(3)
     print()
-    print('Very fortunately, you are in a town that you know your way around, so you can get everything with ease, but you have to not get bitten.')
+    print(
+        'Very fortunately, you are in a town that you know your way around, so you can get everything with ease, but you have to not get bitten.')
 
 
 def showInstructions():
