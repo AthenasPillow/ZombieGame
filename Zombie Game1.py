@@ -872,7 +872,14 @@ _______
     printblox(E, F, G, H)
     printblox(I, S, J, K)
     printblox(L, M, N, O)
-    whereYouare(a, b, c, P, e, f, g, h, i, S, j, k, l, m, n, o, A, B, C, E, F, G, H, I, J, K, L, M, N, O)
+    whereYouare(a, b, c, P,
+                e, f, g, h,
+                i, S, j, k,
+                l, m, n, o,
+                A, B, C,
+                E, F, G, H,
+                I, J, K,
+                L, M, N, O)
 
 
 def printblox(A, B, C, P):
