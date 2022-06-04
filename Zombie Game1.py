@@ -895,7 +895,7 @@ def printblox(A, B, C, P):
     print(a_list[4], b_list[4], c_list[4], d_list[4])
 
 
-def whereYouare(a, b, c, P, e, f, g, h, i, S, j, k, l, m, n, o, A, B, C, E, F, G, H, I, J, K, L, M, N, O):
+def whereYouare(a,b,c,P, e,f,g,h, i,S,j,k, l,m,n,o, A,B,C, E,F,G,H, I,J,K, L,M,N,O):
     s = S
     # Mec = 1
     # Mecha = 2
